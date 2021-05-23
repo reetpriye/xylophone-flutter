@@ -1,0 +1,31 @@
+name: xylophone
+description: Play beats to beat your boredom
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  assets_audio_player: ^3.0.3+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_name: "^0.0.1"
+
+flutter_launcher_name:
+  name: "Xylophone"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
